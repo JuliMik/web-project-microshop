@@ -22,10 +22,4 @@ def hello(name: str = "World"):
 
 @app.post("/calcul/add/")
 def add(a: int, b: int):
-    return {
-        "a": a,
-        "b": b,
-        "result": a + b
-    }
-
-
+    return {"a": a, "b": b, "result": a + b}
